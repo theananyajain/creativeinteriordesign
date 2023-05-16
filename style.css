@@ -5,9 +5,9 @@
 }
   @font-face {
     font-family: "Le Major";
-    src: url(./LeMajor-Regular.ttf) format("ttf");
-    font-family:" Brandon-Grotesque";
-    src: url(./Brandon_reg.ttf) format("ttf");
+    src: url("LeMajor-Regular.ttf") format("ttf");
+    font-family:"Brandon-Grotesque";
+    src: url("Brandon_reg.ttf") format("ttf");
   }
 html,
 body {
@@ -54,7 +54,7 @@ body {
 }
 
 #nav>i {
-  font-family: Le Major;
+  font-family: "Le Major";
   margin-left: 20px;
   font-size: 3vh;
   cursor: pointer;
@@ -63,7 +63,7 @@ body {
 #nav #link {
   width: 30%;
   padding: 10px 20px;
-  font-family: Brandon-Grotesque;
+  font-family: "Brandon-Grotesque";
   text-align: center;
   display: flex;
   align-items: center;
@@ -149,7 +149,7 @@ a:hover {
 
 #year {
   font-size: 5vh;
-  font-family: Le Major;
+  font-family: "Le Major";
   color: #7c4f34;
   position: absolute;
   top: 23%;
@@ -180,7 +180,7 @@ a:hover {
 #head {
   font-size: 15vh;
   position: absolute;
-  font-family: "Le major";
+  font-family: ""Le Major"";
   width: fit-content;
   top: 38%;
   left: 58%;
@@ -308,7 +308,7 @@ a:hover {
 }
 
 #mainh1 {
-  font-family: le major;
+  font-family: "Le Major";
   font-size: 9vh;
   /* background-color: plum; */
   width: 60vw;
@@ -323,7 +323,7 @@ a:hover {
   font-size: 14.5vh;
   width: 60vw;
   position: absolute;
-  font-family: le major;
+  font-family: "Le Major";
   width: 25vw;
   top: 7%;
   right: 23%;
@@ -445,7 +445,7 @@ a:hover {
 #p3head {
   position: absolute;
   /* background-color: red; */
-  font-family: le major;
+  font-family: "Le Major";
   font-size: 8vh;
   top: 2%;
   left: 15%;
@@ -464,7 +464,7 @@ a:hover {
 #box h1 {
   /* position: absolute; */
   font-size: 5vh;
-  font-family: le major;
+  font-family: "Le Major";
 
 }
 
@@ -486,7 +486,7 @@ a:hover {
 #p4head{
   /* background-color: plum; */
   position: absolute;
-  font-family:  le major;
+  font-family:  "Le Major";
   font-size: 4vh;
   left: 14%;
   top: 1%;
@@ -565,7 +565,7 @@ a:hover {
 
 #box1 h1 ,#box2 h1,#box3 h1{
   font-size: 7vh;
-  font-family: le major;
+  font-family: "Le Major";
   color: #4c240b;
   position: absolute;
   top: 35%;
@@ -574,7 +574,7 @@ a:hover {
 }
 #box1 h4,#box2 h4,#box3 h4{
   font-size: 4vh;
-  font-family: le major;
+  font-family: "Le Major";
   position: absolute;
   top: 52%;
   left: 11%;
@@ -614,7 +614,7 @@ position: absolute;
 }
 #letter{
   font-size: 7vh;
-  font-family: le major;
+  font-family: "Le Major";
   line-height: 70px;
 }
 #leftp5 p{
@@ -656,7 +656,7 @@ input[type="number"]::-webkit-inner-spin-button{
 }
 
 .one{
-font-family: le Major;
+font-family: "Le Major";
 font-weight: 600;
 letter-spacing: 1.2px;
 margin-top: 2.5vh;
@@ -686,7 +686,7 @@ border-bottom-right-radius: 30px;
 
 #topbox span{
   font-size: 4vh;
-  font-family: le major;
+  font-family: "Le Major";
   color: #7b3d14;
 }
 #bigbox{
@@ -704,7 +704,7 @@ border-bottom-right-radius: 30px;
 }
 .two h3{
   font-size: 4vh;
-  font-family: le major;
+  font-family: "Le Major";
   color: #7b3d14;
   margin-bottom: 1.4vh;
   cursor: pointer; 
@@ -750,7 +750,7 @@ font-weight: 700;
 }
 #newsletter h2{
   font-size: 4vh;
-  font-family: le major;
+  font-family: "Le Major";
   margin-top: 3vh;
 }
 #newsletter input{
@@ -762,7 +762,7 @@ font-size: 4vh;
 padding: 1vh 4vh;
 margin-top: 7vh;
 margin-left: 4.5vw;
-font-family: le major;
+font-family: "Le Major";
 border: 2px solid #7b3d14;
 border-top-left-radius: 20px;
 border-bottom-right-radius: 20px;
@@ -1081,7 +1081,7 @@ transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
     font-size: 4vh;
     line-height: 70px;
     width: 80vw;
-    font-family: le major;
+    font-family: "Le Major";
     top: 4%;
     left: 7%;
   }
