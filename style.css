@@ -3,12 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-  @font-face {
-    font-family: "Le Major";
-    src: url("LeMajor-Regular.ttf") format("ttf");
-    font-family:"Brandon-Grotesque";
-    src: url("Brandon_reg.ttf") format("ttf");
-  }
+@font-face {
+  font-family: "Le Major";
+  src: url(./LeMajor-Regular.ttf);
+  font-family: "Brandon-Grotesque";
+  src: url(./Brandon_reg.ttf);
+}
 html,
 body {
   height: 100%;
