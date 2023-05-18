@@ -3,18 +3,34 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: "Le Major";
-  src: url(./LeMajor-Regular.ttf);
-  font-family: "Brandon-Grotesque";
-  src: url(./Brandon_reg.ttf);
-}
+  
+  @font-face {
+    font-family: "Le Major";
+    src: url("LeMajor-Regular.ttf") format("truetype"),
+    url("LeMajor-Regular.ttf") format("truetype") ;
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family:"Brandon Regular";
+    src: url("Brandon_reg.ttf") format("truetype"),
+    url("Brandon_reg.ttf") format("truetype") ;
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 html,
 body {
   height: 100%;
   width: 100%;
 }
 
+.testfont h1{
+  font-size: 2.5rem;
+  font-family: "Le Major";
+  color: #fff;
+  /* font-family: cursive; */
+}
 #main {
   overflow-x: hidden;
   perspective: 700px;
@@ -63,7 +79,7 @@ body {
 #nav #link {
   width: 30%;
   padding: 10px 20px;
-  font-family: "Brandon-Grotesque";
+  font-family: "Brandon Regular";
   text-align: center;
   display: flex;
   align-items: center;
@@ -180,7 +196,7 @@ a:hover {
 #head {
   font-size: 15vh;
   position: absolute;
-  font-family: ""Le Major"";
+  font-family: "Le Major";
   width: fit-content;
   top: 38%;
   left: 58%;
@@ -245,7 +261,7 @@ a:hover {
 
 #right h1 {
   font-size: 2vh;
-  font-family: Brandon Grotesque;
+  font-family: "Brandon";
   text-transform: uppercase;
   text-align: center;
 }
@@ -257,7 +273,7 @@ a:hover {
   bottom: 5%;
   left: 7%;
   z-index: 9;
-  font-family: Brandon Grotesque;
+  font-family: "Brandon";
   font-size: 3vh;
 }
 
@@ -378,7 +394,7 @@ a:hover {
   bottom: 33%;
   left: 31%;
   z-index: 9;
-  font-family: Brandon Grotesque;
+  font-family: "Brandon";
   font-size: 3.5vh;
   font-weight: 100;
   line-height: 30px;
@@ -471,7 +487,7 @@ a:hover {
 #box p {
   /* position: absolute; */
   font-size: 3vh;
-  font-family: Brandon Grotesque;
+  font-family: "Brandon";
   width: 25vw;
   margin-top: 10px;
   color: #572809;
@@ -584,7 +600,7 @@ a:hover {
 }
 #box1 p ,#box2 p,#box3 p{
   font-size: 2.vh;
-  font-family: Brandon Grotesque;
+  font-family: "Brandon";
   position: absolute;
   left: 12%;
   top: 70%;
@@ -619,7 +635,7 @@ position: absolute;
 }
 #leftp5 p{
 font-size: 3.3vh;
-font-family: Brandon Grotesque;
+font-family: "Brandon";
 position: absolute;
 width: 23vw;
 top: 72%;
@@ -645,7 +661,7 @@ input[type="text"],input[type="email"],input[type="number"],textarea{
   border-bottom: 0.3vh solid #7b3d14;
   margin-top: 1vh;
   color: #602d0c;
-  font-family: Brandon Grotesque;
+  font-family: "Brandon";
   font-size: 3vh;
   font-weight: 200;
 }
@@ -680,7 +696,7 @@ border-bottom-right-radius: 30px;
 }
 #topbox>h2{
   font-size: 2.6vh;
-  font-family:  Brandon Grotesque;
+  font-family:  "Brandon";
 }
 
 
@@ -1081,7 +1097,7 @@ transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
     font-size: 4vh;
     line-height: 70px;
     width: 80vw;
-    font-family: "Le Major";
+    font-family: le major;
     top: 4%;
     left: 7%;
   }
